@@ -25,8 +25,8 @@ for url in urls:
     content = request.json()
 
     body = f"""\
-    Subject: News on {today_date}
-    
+Subject: News on {today_date}
+
     """
     # Access the article titles and description
     for article in content["articles"][:20]:
