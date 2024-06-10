@@ -1,4 +1,5 @@
 import requests
+import os
 from send_email import send_email
 from datetime import datetime
 
